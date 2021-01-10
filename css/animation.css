@@ -1,0 +1,37 @@
+/* Animação CSS*/
+/* ANIMAÇÃO PARA O BEFORE = SLIDE */
+@keyframes sliderin{
+    from{
+        left: 0;
+        width: 40%;
+        
+    }
+    50%{
+        /* height: 45px;
+        width: 45px; */
+        border-radius: 50%;
+    }
+    to{
+        left: 60%;
+        width: 40%;
+    }
+}
+
+@keyframes sliderout{
+    from{
+        left: 60%;
+        width: 40%;
+        
+    }
+    50%{
+       
+        border-radius: 50%;
+    }
+    to{
+        left: 0%;
+        width: 40%;
+    }
+}
+
+
+
